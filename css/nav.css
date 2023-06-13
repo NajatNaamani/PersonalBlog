@@ -1,0 +1,26 @@
+h1 .logo {
+    font-size: 40px;
+}
+
+.logo {
+    font-family: 'Orbit', 'sans-serif';
+}
+
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nav ul li:hover {
+    text-decoration: underline;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
